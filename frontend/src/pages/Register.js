@@ -47,8 +47,7 @@ export default function Register() {
       marginBottom: "1.5rem",
       textAlign: "center",
     },
-    <input
-  style={{
+    input: {
     width: "100%",
     padding: "0.75rem",
     marginBottom: "1rem",
@@ -56,8 +55,8 @@ export default function Register() {
     border: "1px solid #ccc",
     fontSize: "1rem",
     color: "black"
-  }}
-/>
+    },
+
 
     button: {
       width: "100%",
