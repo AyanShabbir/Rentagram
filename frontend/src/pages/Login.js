@@ -28,7 +28,7 @@ export default function Login() {
             placeholder="Email"
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
-            className="w-full p-3 mb-4 rounded-lg border border-gray-300 text-black text-base"
+            className="px-4 py-3 rounded-xl bg-white/20 text-white placeholder-gray-300 border border-white/20 focus:outline-none focus:ring-2 focus:ring-white"
             required
           />
           <input
