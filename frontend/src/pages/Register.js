@@ -48,14 +48,24 @@ export default function Register() {
       textAlign: "center",
     },
     input: {
-    width: "100%",
-    padding: "0.75rem",
-    marginBottom: "1rem",
-    borderRadius: "8px",
-    border: "1px solid #ccc",
-    fontSize: "1rem",
-    color: "black"
+      paddingLeft: "1rem",        // px-4
+      paddingRight: "1rem",       // px-4
+      paddingTop: "0.75rem",      // py-3
+      paddingBottom: "0.75rem",   // py-3
+      borderRadius: "0.75rem",    // rounded-xl = 12px
+      backgroundColor: "rgba(255, 255, 255, 0.2)", // bg-white/20
+      color: "white",             // text-white
+      border: "1px solid rgba(255, 255, 255, 0.2)", // border-white/20
+      outline: "none",            // focus:outline-none
+      fontSize: "1rem",           // Tailwind default
+      "::placeholder": {
+        color: "#D1D5DB"          // placeholder-gray-300 (hex of Tailwind gray-300)
+      },
+      ":focus": {
+        boxShadow: "0 0 0 2px white" // focus:ring-2 focus:ring-white
+      }
     },
+
 
 
     button: {
