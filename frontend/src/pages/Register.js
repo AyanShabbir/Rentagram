@@ -47,15 +47,18 @@ export default function Register() {
       marginBottom: "1.5rem",
       textAlign: "center",
     },
-    input: {
-      width: "100%",
-      padding: "0.75rem",
-      marginBottom: "1rem",
-      borderRadius: "8px",
-      border: "1px solid #ccc",
-      fontSize: "1rem",
-      color: "black"
-    },
+    <input
+  style={{
+    width: "100%",
+    padding: "0.75rem",
+    marginBottom: "1rem",
+    borderRadius: "8px",
+    border: "1px solid #ccc",
+    fontSize: "1rem",
+    color: "black"
+  }}
+/>
+
     button: {
       width: "100%",
       padding: "1rem",
